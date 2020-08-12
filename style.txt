@@ -1,163 +1,29 @@
-/* --------AUI SECTION START-------- */
-.aui-header {
-    background: #393e46;
-    color: #eeeeee;
+html {
+    filter: invert(86%) hue-rotate(180deg) brightness(105%) contrast(105%);
+    background: white;
 }
-
-span.subnav-page-header {
-    color: #eeeeee;
-}
-.aui-button, .aui-button:visited, a.aui-button {
-    color: #eeeeee;
-    background-color: #00adb5;
-}
-
-.aui-icon-large:before, .aui-icon-small:before {
-    color: #00adb5;
-}
-
-.aui-sidebar .aui-sidebar-wrapper {
-    background: #222831;
-}
-
-.aui-header .aui-button.aui-button-primary.aui-style {
-    color: #eeeeee;
-    background-color: #00adb5;
-}
-.aui-sidebar[aria-expanded=false] .aui-sidebar-group-actions~.aui-sidebar-group-tier-one {
-    border-top: 2px solid #393e46;
-}
-.aui-sidebar .aui-sidebar-footer {
-    border-top: 2px solid #393e46;
-}
-.aui-navgroup-horizontal .aui-nav>li a, .aui-navgroup-vertical .aui-nav>li>a, .aui-nav-vertical>li>a {
-    color: #eeeeee;
-}
-.aui-sidebar-submenu .aui-navgroup-vertical .aui-nav .aui-nav-selected>.aui-nav-item, .aui-sidebar .aui-navgroup-vertical .aui-nav .aui-nav-selected>.aui-nav-item {
-    background-color: rgba(9,30,66,.08);
-    color: #eeeeee;
-    font-weight: 500;
-}
-.aui-iconfont-vid-full-screen-on:before {
-	    background-color: #eeeeee !important;
-}
-
-.aui-lozenge.aui-lozenge-subtle.jira-issue-status-lozenge-blue-gray {
-    background-color: #393e46;
-    border-color: #222831;
-    color: #00adb5;
-}
-
-
-
-/* --------GHX SECTION START-------- */
-#ghx-header {
-        background: #222831;
-}
-
-#ghx-header h1, #ghx-header h2 {
-    color: #eeeeee;
-}
-
-#ghx-column-header-group {
-    background: #222831;
-}
-
-#ghx-pool {
-    background: #222831;
-}
-
-.ghx-swimlane-header {
-    background-color: #222831;
-}
-
-.ghx-column-headers .ghx-column {
-    background: #222831;
-	border-bottom: 5px solid #393e46;
-}
-.ghx-column, .ghx-columns .ghx-column {
-	    background: #1b2028;
-}
-#ghx-operations {
-    padding: 0 20px;
-    border-bottom: 2px solid #393e46;
-}
-
-.ghx-swimlane-header:after {
-    background-color: #222831;
-    -webkit-box-shadow: -5px 0 10px 5px #393e46;
-    box-shadow: -5px 0 10px 5px #393e46;
-
-}
-
-
-
-/* --------CARD COLORS-------- */
-.ghx-issue {
-	border-radius: 4px;
-	color: #eeeeee;
-    background: #393e46;
-}
-.ghx-issue:hover {
-	border-radius: 4px;
-	color: #393e46;
-    background: #eeeeee;
-}
-.ghx-issue.ghx-selected {
-    background: #00adb5;
-}
-.ghx-parent-group.ghx-away {
-    background-color: #222831;
-}
-.ghx-issue~.ghx-subtask-group {
-    background-color: #222831;
-}
-
-
-
-/* --------RIGHT SIDEBAR OPENED-------- */
-.ghx-detail-contents {
-	color: #eeeeee;
-	background: #1b2028;
-}
-.ghx-detail-issue {
-		color: #00adb5;
-}
-.issue-body-content .module > .mod-header > h1, .issue-body-content .module > .mod-header > h2, .issue-body-content .module > .mod-header > h3, .issue-body-content .module > .mod-header > h4, .issue-body-content .module > .mod-header > h5, .issue-body-content .module > .mod-header > h6 {
-    background-color: rgba(255, 255, 255, 0);
-    padding-right: 5px;
-	color: #eee;
-}
-.ghx-detail-view.gh-editable-detail-view .ghx-detail-issue .module.toggle-wrap .toggle-title {
-	color: #eee;
-}
-table.aui>tbody>tr, table.aui>tfoot>tr {
-    background: #222831;
-    color: #eee;
-}
-table.aui:not(.aui-table-list)>tbody>tr>td, table.aui:not(.aui-table-list)>tbody>tr>th, table.aui:not(.aui-table-list)>tfoot>tr>td, table.aui:not(.aui-table-list)>tfoot>tr>th {
-    border-bottom: 1px solid #393e46;
-}
-
-
-/* --------GENERAL START-------- */
 body {
-	    color: #00adb5;
-    background: #222831 !important; 
+    background: white;
 }
-a {
-    color: #00adb5;
+span[role="img"] {
+    filter: invert(100%) hue-rotate(180deg) brightness(105%) contrast(105%);
 }
-
-body.ghx-rapid-views #ghx-rabid {
-    background:#222831;
+img, svg, iframe, .emoji-common-emoji-sprite {
+	filter: invert(100%) hue-rotate(180deg) brightness(105%) contrast(105%);
 }
-.issue-body-content .module > .mod-header .ops {
-    background-color: rgba(255, 255, 255, 0);
-    margin-top: 2px;
-    cursor: pointer;
+/* Fix bug with white edges on sprint board */
+#gh {
+    padding: 0 40px;
 }
-.issue-activity-sort-link {
-    background: #1b2028 !important;
-    padding: 0 5px;
+#content {
+    margin: 0;
+}
+/* Fix scroll background problems */
+[data-testid="Content"] > div:first-child {
+    background: white;
+}
+/* Fix header background problems */
+.aui-header {
+    filter: invert(86%) hue-rotate(180deg) brightness(105%) contrast(105%);
+    background: #00040d;
 }
