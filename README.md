@@ -9,6 +9,10 @@ What things you need to install the software and how to install them
 https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en
 ```
 
+```
+https://addons.mozilla.org/en-US/firefox/addon/styl-us/
+```
+
 ### Installing
 
 1) Install Stylus addon for your browser
