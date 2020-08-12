@@ -3,8 +3,7 @@ Creating a dark mode for jira using "Stylus Addon"
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
+Stylus addon
 ```
 https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en
 ```
